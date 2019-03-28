@@ -7,6 +7,8 @@ for x in a:
         b.append(x)
     else:
         c.append(x)
+d=set(c)
+c=list(d)
 c.sort()
 for i in c:
     print(i,end=' ')
