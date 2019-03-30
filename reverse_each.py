@@ -3,6 +3,8 @@ n=str(input())
 a=n.split(" ")
 u=0
 for i in a:
-    u=i[::-1]
-    s="".join(u)
-    print(s,end=" ")
+    if(i!=len(a)):
+       u=i[::-1]
+       print(u,end=" ")
+    else:
+        print(u)
