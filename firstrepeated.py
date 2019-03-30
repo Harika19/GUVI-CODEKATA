@@ -7,7 +7,7 @@ for i in a:
         b.append(i)
     else:
         print(i)
-        c=c+1
+        c+=1
         break
 if c==0:
     print("unique")
