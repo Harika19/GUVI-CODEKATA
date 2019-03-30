@@ -1,4 +1,5 @@
 #remove vowel and reverse a string
+n=int(input())
 i=str(input())
 k=list(i)
 r=0
