@@ -1,7 +1,7 @@
-N,Q=map(int,input().split())
+n,q=map(int,input().split())
 a=list(map(int,input().split()))
 x=[]
-for i in range(Q):
+for i in range(q):
     U,V=map(int,input().split())
     s=0
     for z in range(U-1,V):
