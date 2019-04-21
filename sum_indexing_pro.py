@@ -1,14 +1,14 @@
 N,Q=map(int,input().split())
 a=list(map(int,input().split()))
 x=[]
-for j in range(Q):
-    u,v=map(int,input().split())
+for i in range(Q):
+    U,V=map(int,input().split())
     s=0
-    for k in range(u-1,v):
-        s=s+a[k]
+    for z in range(U-1,V):
+        s=s+a[z]
     x.append(s)
-for l in range(len(x)):
-    if l!=len(x)-1:
-        print(x[l],end='\n')
+for d in range(len(x)):
+    if d!=len(x)-1:
+        print(x[d],end='\n')
     else:
-        print(x[l],end='')
+        print(x[d],end='')
