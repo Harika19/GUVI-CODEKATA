@@ -8,12 +8,3 @@ for i in range(x):
         print(t[::-1],end=' ')
     else:
         print(t[::-1])
-'''n=str(input())
-a=n.split(" ")
-u=0
-for i in a:
-    if(i!=len(a)):
-       u=i[::-1]
-       print(u,end=" ")
-    else:
-        print(u)'''
