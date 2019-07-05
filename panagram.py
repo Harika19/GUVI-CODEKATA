@@ -6,7 +6,6 @@ for i in s:
         l.append(i)       
 l.sort()
 u=''.join(l)
-print(u)
 if(u==q):
     print("yes")
 else:
